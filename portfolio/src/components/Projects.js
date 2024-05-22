@@ -60,7 +60,7 @@ const Projects = () => {
     return (
         <>
         <section className="flex flex-col gap-5 p-4 mt-4 shadow-md rounded-2xl bg-mycolors-bg ring-1 ring-mycolors-ring">
-        <h1 className='font-bold text-mycolors-2'>Filtrar Proyectos por Tecnología</h1>
+        <h1 className='text-xl font-bold text-mycolors-2'>Proyectos Web</h1>
         <Filter
             technologies={allTechnologies}
             selectedTechnologies={selectedTechnologies}

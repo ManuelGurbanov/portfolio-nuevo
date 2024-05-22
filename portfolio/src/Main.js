@@ -3,6 +3,7 @@ import Presentation from './components/Presentation';
 import Social from './components/Social';
 import Studies from './components/Studies';
 import Projects from './components/Projects';
+import Slider from './components/Slider';
 
 export default function Main() {
     return (
@@ -19,6 +20,7 @@ export default function Main() {
 
                     <Projects />
 
+                    <Slider/>
             </div>
         </div>
     );
