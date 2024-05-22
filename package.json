@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "postcss": "^8.4.38",
-    "postcss-loader": "^8.1.1"
+    "postcss-loader": "^8.1.1",
+    "react": "^version",
+    "react-dom": "^version",
+    "react-scripts": "^version"
   }
 }
