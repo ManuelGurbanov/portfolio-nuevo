@@ -9,10 +9,11 @@ module.exports = {
         'custom': '70vw',
       },
       colors: {
-        'green': {
-          1: '#042326',
-          2: '#0A3A40',
-          3: '#0F5959',
+        'mycolors': {
+          'bg': '#0F172A',
+          1: '#0A3A40',
+          2: '#0ea5e9',
+          'ring' : '#0F2F49',
         },
       }
     },
