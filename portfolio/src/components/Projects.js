@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import ArsenalImg from './img/ArsenalImg.webp';
 import MoviesImg from './img/MoviesImg.webp';
 import StreamingImg from './img/StreamingImg.webp';
-import WppImg from './img/WppImg.webp';
+import CafesImg from './img/CafesImg.webp';
 
 const projectsData = [
     {
@@ -17,10 +17,10 @@ const projectsData = [
     },
     {
         id: 2,
-        name: 'Clon de WhatsApp Web',
-        description: 'Landing page realizada para aprender los aspectos básicos de React',
-        technologies: ['React'],
-        imgLink: WppImg
+        name: 'A Dónde Vamos',
+        description: 'Landing page de aplicación en desarrollo para encontrar las mejores cafeterías de Buenos Aires',
+        technologies: ['React', 'Tailwind'],
+        imgLink: CafesImg
     },
     {
         id: 3,

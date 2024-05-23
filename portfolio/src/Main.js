@@ -4,6 +4,7 @@ import Social from './components/Social';
 import Studies from './components/Studies';
 import Projects from './components/Projects';
 import Slider from './components/Slider';
+import Certificates from './components/Certificates';
 
 export default function Main() {
     return (
@@ -21,6 +22,8 @@ export default function Main() {
                     <Projects />
 
                     <Slider/>
+
+                    <Certificates/>
             </div>
         </div>
     );

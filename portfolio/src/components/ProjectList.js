@@ -3,6 +3,7 @@ import React from 'react';
 const ProjectList = ({ projects }) => {
   return (
   <div className='flex-col gap-4 lg:grid lg:grid-cols-2'>
+
     {projects.map((project) => (
       <div key={project.id} className='flex flex-col mt-3 shadow-md bg-mycolors-bg rounded-xl ring-1 ring-mycolors-ring2'>
         <div>
@@ -25,6 +26,9 @@ const ProjectList = ({ projects }) => {
         </div>
       </div>
     ))}
+
+
+
   </div>
   );
 };

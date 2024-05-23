@@ -7,7 +7,7 @@ const Filter = ({ technologies, selectedTechnologies, onToggleTechnology }) => {
                 <button
                     key={tech}
                     onClick={() => onToggleTechnology(tech)}
-                    className={`m-2 p-2 border rounded ${
+                    className={`m-2 p-2 ring-1 ring-mycolors-ring rounded ${
                         selectedTechnologies.includes(tech) ? 'bg-mycolors-2 text-black' : 'bg-mycolors-bg text-white'
                     }`}
                 >

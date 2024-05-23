@@ -13,6 +13,7 @@ body {
 
 
 
+  overflow-x: hidden;
 
   background: rgb(15,23,42);
   background: linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(18,33,68,1) 38%, rgba(15,23,42,1) 75%);
@@ -21,4 +22,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #051420;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0F2F49;
+  border-radius: 10px;
+  border: 3px solid transparent;
 }
